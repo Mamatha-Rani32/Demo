@@ -1,0 +1,34 @@
+<app-nav-bar></app-nav-bar>
+
+    <div class="d-flex justify-content-between ml-3 mt-3">
+    <div class="mint">Ready to Mint (123)</div>
+      <div class="d-flex  ">
+        <div class="mr-5 search"><i class="fas fa-search pl-2"></i>Search</div>
+      <div class=" mr-5 filter pr-2"><i class="fa-solid fa-filter pl-2"></i>Filter</div>
+      
+      <div class=" mr-3 sort pr-2"><i class="fa-solid fa-arrow-up-short-wide pl-2"></i>Sort</div>
+    </div> 
+  </div>
+
+  <div class="row  mt-5  image col-md -2">
+  <div class="card mt-3 ml-2" *ngFor="let item of inputData" style="width: 15rem;">
+    <img class="card-img-top" src="/assets/galaxy.webp" alt="Card image cap">
+    <div class="card-body">
+      <div class="d-flex ml-1  nftname">NFT Name
+        <div class="d-flex ml-2 colon">:
+          <div class="d-flex ml-1 data">{{item.NFT_Name}}</div>
+        </div>
+      </div> 
+      <div class="d-flex ml-1 symbol">Symbol
+        <div class="d-flex ml-4 colon">:
+          <div class="d-flex ml-1 data">{{item.Symbol}}</div>
+        </div>
+      </div> 
+       <div class="d-flex ml-5 mt-3">
+      <a href="#" class="btn btn-primary">Mint</a>
+    </div>
+  </div>
+</div>
+
+
+  
