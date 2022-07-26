@@ -1,5 +1,4 @@
 
-// @media screen and (min-width:400px) and (max-width:700px){}
 
 .search{
     color:adjust-hue($color: blue, $degrees: 0);
@@ -14,8 +13,6 @@
     color:adjust-hue($color: blue, $degrees: 0);
     font-size: 18px;
     font-family: 'Roboto';
-
-    //  margin-right: 100px;
 }
 .sort{
     border: 1px solid black;
@@ -28,19 +25,7 @@
 .image{
     margin-left:80px;
 }
-//  @media screen and (min-width:400px) and (max-width:700px){
-//  .image{
-//      margin-left:10px;
-//     //  width:100%;
-// }
-//     .nftname{
-//         margin-left: 10px;
 
-//     }
-// .card-body{
-//     align-self: flex-start;
-// }
-//  }
 .nftname{
     font-weight: 800;
     font-family: 'Roboto';

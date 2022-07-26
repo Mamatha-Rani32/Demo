@@ -26,6 +26,10 @@ import {MatTreeModule} from '@angular/material/tree';
 import { NgxCopyPasteModule } from 'ngx-copypaste';
 import {CdkTreeModule} from '@angular/cdk/tree';
 import { ProductListComponent } from './trustyx/product-list/product-list.component';
+import { PopupComponent } from './trustyx/popup/popup.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatCardModule} from '@angular/material/card';
+
 
 
 
@@ -37,6 +41,7 @@ import { ProductListComponent } from './trustyx/product-list/product-list.compon
     NftComponent,
     MainComponent,
     ProductListComponent,
+    PopupComponent,
   
   ],
   imports: [
@@ -45,8 +50,9 @@ import { ProductListComponent } from './trustyx/product-list/product-list.compon
     BrowserAnimationsModule,MatToolbarModule,MatIconModule,MatTableModule,MatFormFieldModule,
     HttpClientModule,MatTabsModule,MatSelectModule,MatMenuModule,
   MatAutocompleteModule,MatChipsModule,MatTreeModule,NgxCopyPasteModule,CdkTreeModule,
-  MatSlideToggleModule,ReactiveFormsModule,FormsModule,MatInputModule,MatAutocompleteModule,Ng2SearchPipeModule,ClipboardModule
-  ],
+  MatSlideToggleModule,ReactiveFormsModule,FormsModule,MatInputModule,MatAutocompleteModule,
+  Ng2SearchPipeModule,ClipboardModule, MatDialogModule,MatCardModule],
+
   providers: [ApiService],
   bootstrap: [AppComponent]
 })
